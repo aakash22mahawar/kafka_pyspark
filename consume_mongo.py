@@ -91,7 +91,7 @@ if __name__ == "__main__":
     mongo_consumer = MongoConsumer(
         bootstrap_servers="localhost:9092",
         topic="random_name",
-        mongodb_uri="mongodb+srv://myAtlasDBUser:4ts3GFzuDUvKpRfy@myatlasclusteredu.zxqa7ir.mongodb.net",
+        mongodb_uri="mongodb+srv://myAtlasDBUser:PASSWORD@myatlasclusteredu.zxqa7ir.mongodb.net",
         mongodb_database="kafka_pyspark_stream",
         mongodb_collection="random_name"
     )
